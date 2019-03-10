@@ -33,4 +33,4 @@ type st =
 
 let str_st s =
   match s with
-  | ST (m, k) -> str_m m ^ " , " ^ str_k k
+  | ST (m, k) -> str_m m ^ ", " ^ str_k k

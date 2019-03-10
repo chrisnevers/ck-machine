@@ -1,9 +1,5 @@
 {
   open Parser
-  open Str
-
-  let id_start = regexp ""
-  let id_rest = regexp ""
 }
 
 rule token = parse

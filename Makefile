@@ -1,6 +1,6 @@
-BUILD_PKGS=str
+BUILD_PKGS=
 TEST_PKGS=oUnit
-BUILD_FLAGS=-use-ocamlfind -pkgs ${BUILD_PKGS} -use-menhir -Is src
+BUILD_FLAGS=-use-menhir -Is src
 DEBUG_FLAGS=-tag 'debug'
 TEST_FLAGS=-use-ocamlfind -pkgs ${TEST_PKGS} -Is src
 
